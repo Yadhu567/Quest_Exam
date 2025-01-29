@@ -6,12 +6,12 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.activity.ComponentActivity
 
-class MainActivity : ComponentActivity() {
+class NewsMainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.main_activity_layout)
+        setContentView(R.layout.news_main_activity_layout)
 
         val edittext1 = findViewById<EditText>(R.id.edittext1)
 

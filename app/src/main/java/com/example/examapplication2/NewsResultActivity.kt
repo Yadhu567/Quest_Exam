@@ -6,6 +6,8 @@ import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
+import com.example.examapplication2.roomdb.NewsDao
+import com.example.examapplication2.roomdb.NewsDatabase
 
 class NewsResultActivity : ComponentActivity() {
 
